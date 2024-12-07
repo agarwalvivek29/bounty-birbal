@@ -1,0 +1,20 @@
+.navbar {
+    /* Additional styles can go here if needed */
+}
+
+.textGradient {
+    background: linear-gradient(to right, #ff4e50, #7c3aed); /* Violetish Pink */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textGradient2 {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Different Color for Dispenser */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.hover\:bg-violet-500:hover {
+    background-color: #8b5cf6; /* Hover Background Color for buttons */
+}
