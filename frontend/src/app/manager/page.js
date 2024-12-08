@@ -143,7 +143,7 @@ const ManagerDashboard = () => {
   }
 
   const handleAddToGitHub = () => {
-    window.open('https://github.com/apps/tst-app-vivk/installations/new', '_blank');
+    window.open('https://github.com/apps/bounty-birbal-bot/installations/new', '_blank');
   };
 
   if (!account) {
