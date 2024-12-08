@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this CSS in your main CSS file or within a <style> tag in your component */
+.google-login-button {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 9999px !important;
+  padding: 10px 20px !important;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.table-container {
+  max-height: 290px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #1616161f;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.table-container::-webkit-scrollbar {
+  display: none;
+}
