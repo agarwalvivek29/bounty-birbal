@@ -3,6 +3,8 @@ import { handleIssueClosed } from "./handlers/handleIssueClosed";
 import { handleIssueAssigned } from "./handlers/handleIssueAssigned";
 import { handleIssueCommentCreated } from "./handlers/handleIssueCommentCreated";
 import { handleIssueCommentEdited } from "./handlers/handleIssueCommentEdited";
+import { handlePullRequestOpened } from "./handlers/handlePullRequestCreated";
+
 import { App } from "@octokit/app";
 import dotenv from "dotenv";
 dotenv.config();
@@ -39,6 +41,9 @@ app.webhooks.on("issue_comment.created", async (event) => {
 });
 app.webhooks.on("issue_comment.edited", async (event) => {
   handleIssueCommentEdited(event);
+});
+app.webhooks.on("pull_request.opened", async (event) => {
+  handlePullRequestOpened(event);
 });
 
 export default app;
