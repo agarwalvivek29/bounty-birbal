@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useRef, useState } from "react";
 import { CredentialResponse, GoogleLogin } from "@react-oauth/google";
 import { useDispatch, useSelector } from "react-redux";
