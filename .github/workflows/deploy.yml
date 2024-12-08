@@ -33,6 +33,8 @@ jobs:
         with:
           site-path: './okto/build'
           network: 'testnet'
+          epochs: 100
+          object-id: '0x5d4a356b03d189f74ef45298c191855dac622af27129bb257849ce9c3d5f63f6'
         env:
           SUI_ADDRESS: ${{ vars.SUI_ADDRESS }}
           SUI_KEYSTORE: ${{ secrets.SUI_KEYSTORE }}

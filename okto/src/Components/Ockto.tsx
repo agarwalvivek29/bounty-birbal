@@ -29,7 +29,8 @@ import {
   executeRawTransaction,
 } from "../services/apiService";
 
-const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_ID =
+  "487529653195-66fsss98vqtdbt9433tq7fvmh1rf7vom.apps.googleusercontent.com";
 
 const App: React.FC = () => {
   const dispatch = useDispatch();

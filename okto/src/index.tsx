@@ -11,8 +11,9 @@ import Home from "./pages/Home";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { BuildType, OktoProvider } from "okto-sdk-react";
 
-const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID;
-const OKTO_CLIENT_API = process.env.REACT_APP_CLIENT_API_KEY;
+const GOOGLE_CLIENT_ID =
+  "487529653195-66fsss98vqtdbt9433tq7fvmh1rf7vom.apps.googleusercontent.com";
+const OKTO_CLIENT_API = "5c040ad3-023a-48de-a6bf-864a0b16cc1d";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

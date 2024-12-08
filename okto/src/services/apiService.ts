@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "https://dev-34194375.okta.com";
-const CLIENT_API_KEY = process.env.REACT_APP_CLIENT_API_KEY;
+const CLIENT_API_KEY = "5c040ad3-023a-48de-a6bf-864a0b16cc1d";
 
 const apiService = axios.create({
   baseURL: BASE_URL,
