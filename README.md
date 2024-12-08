@@ -60,8 +60,9 @@
 
 🎥 **Live Demo**: [Watch Now!](#)  
 🔗 **Smart Contracts**:  
-- Ethereum: `0xYourEthereumContractAddressHere`  
-- Polygon: `0xYourPolygonContractAddressHere`  
+- Sepolia: [0x96111652DB352b814697e79A846E8CD9C8e11196](https://cardona-zkevm.polygonscan.com/address/0x96111652DB352b814697e79A846E8CD9C8e11196)
+- Base Sepolia: [0x96111652DB352b814697e79A846E8CD9C8e11196](https://cardona-zkevm.polygonscan.com/address/0x96111652DB352b814697e79A846E8CD9C8e11196)
+- Polygon: [0x96111652DB352b814697e79A846E8CD9C8e11196](https://cardona-zkevm.polygonscan.com/address/0x96111652DB352b814697e79A846E8CD9C8e11196)
 
 ---
 
