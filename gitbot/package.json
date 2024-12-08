@@ -1,0 +1,28 @@
+{
+  "name": "gitbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@octokit/auth-app": "^4.0.13",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "octokit": "^3.2.1",
+    "thirdweb": "^5.61.5",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@octokit/types": "^13.5.0",
+    "@octokit/webhooks-types": "^7.5.1",
+    "@types/express": "^4.17.21"
+  }
+}
