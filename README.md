@@ -60,8 +60,7 @@
 
 🎥 **Live Demo**: [Watch Now!](#)  
 🔗 **Smart Contracts**:  
-- Sepolia: [0x96111652DB352b814697e79A846E8CD9C8e11196](https://cardona-zkevm.polygonscan.com/address/0x96111652DB352b814697e79A846E8CD9C8e11196)
-- Base Sepolia: [0x96111652DB352b814697e79A846E8CD9C8e11196](https://cardona-zkevm.polygonscan.com/address/0x96111652DB352b814697e79A846E8CD9C8e11196)
+- Base Sepolia: [0x3baf4b8f3c540c734edebf6bcbc0b3820f6a1e84](https://sepolia.basescan.org/address/0x3baf4b8f3c540c734edebf6bcbc0b3820f6a1e84)
 - Polygon: [0x96111652DB352b814697e79A846E8CD9C8e11196](https://cardona-zkevm.polygonscan.com/address/0x96111652DB352b814697e79A846E8CD9C8e11196)
 
 ---
